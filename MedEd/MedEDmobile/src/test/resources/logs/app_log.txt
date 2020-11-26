@@ -1,0 +1,4 @@
+INFO    2020-11-26 10:46:53,323 [main] base.TestBase  - Appium server started
+INFO    2020-11-26 10:46:53,323 [main] base.TestBase  - Android_MedEd.properties:=>  property file loaded !!
+INFO    2020-11-26 10:47:25,777 [main] base.TestBase  - Test case Execution completed
+INFO    2020-11-26 10:47:25,777 [main] base.TestBase  - Appium server stopped
