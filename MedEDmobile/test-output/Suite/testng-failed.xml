@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="extentListeners.ExtentListeners"/>
+  </listeners>
+  <test thread-count="5" name="MedED_login(failed)">
+    <classes>
+      <class name="testcases.loginTest">
+        <methods>
+          <include name="quit"/>
+          <include name="FirstloginBtn"/>
+          <include name="EnterLoginCredentials"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- testcases.loginTest -->
+    </classes>
+  </test> <!-- MedED_login(failed) -->
+</suite> <!-- Failed suite [Suite] -->

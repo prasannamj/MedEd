@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="60321" started-at="2020-11-26T05:16:25Z" finished-at="2020-11-26T05:17:25Z">
+    <groups>
+    </groups>
+    <test name="MedED_login" duration-ms="27423" started-at="2020-11-26T05:16:25Z" finished-at="2020-11-26T05:16:52Z">
+      <class name="testcases.loginTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:testcases.loginTest@4df828d7]" name="init" is-config="true" duration-ms="8303" started-at="2020-11-26T05:16:25Z" finished-at="2020-11-26T05:16:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="FirstloginBtn()[pri:1, instance:testcases.loginTest@4df828d7]" name="FirstloginBtn" duration-ms="6721" started-at="2020-11-26T05:16:33Z" finished-at="2020-11-26T05:16:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstloginBtn -->
+        <test-method status="PASS" signature="EnterLoginCredentials()[pri:2, instance:testcases.loginTest@4df828d7]" name="EnterLoginCredentials" duration-ms="9857" started-at="2020-11-26T05:16:40Z" finished-at="2020-11-26T05:16:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterLoginCredentials -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:testcases.loginTest@4df828d7]" name="quit" is-config="true" duration-ms="2511" started-at="2020-11-26T05:16:50Z" finished-at="2020-11-26T05:16:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testcases.loginTest -->
+    </test> <!-- MedED_login -->
+    <test name="MedED_home" duration-ms="32461" started-at="2020-11-26T05:16:53Z" finished-at="2020-11-26T05:17:25Z">
+      <class name="testcases.HomeScreenTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:testcases.HomeScreenTest@28c4711c]" name="init" is-config="true" duration-ms="7735" started-at="2020-11-26T05:16:53Z" finished-at="2020-11-26T05:17:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="swip()[pri:0, instance:testcases.HomeScreenTest@28c4711c]" name="swip" duration-ms="22301" started-at="2020-11-26T05:17:01Z" finished-at="2020-11-26T05:17:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- swip -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:testcases.HomeScreenTest@28c4711c]" name="quit" is-config="true" duration-ms="2423" started-at="2020-11-26T05:17:23Z" finished-at="2020-11-26T05:17:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testcases.HomeScreenTest -->
+    </test> <!-- MedED_home -->
+  </suite> <!-- Suite -->
+</testng-results>
